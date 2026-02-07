@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional real estate consultant helping clients buy, sell, and invest in verified properties.">
+  <meta name="keywords" content="real estate consultant, buy property, sell property, real estate advisor">
+  <meta name="author" content="Your Name">
+
+  <title>Properties Listings | Buy & Rent Properties</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1 class="logo">AL - MINA REAL ESTATE</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings.html">Properties</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container">
+  <h2>Available Properties</h2>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <select id="typeFilter">
+      <option value="all">All Types</option>
+      <option value="apartment">Apartment</option>
+      <option value="villa">Villa</option>
+      <option value="plot">Plot</option>
+    </select>
+
+    <select id="priceFilter">
+      <option value="all">All Prices</option>
+      <option value="low">Below $200k</option>
+      <option value="mid">$200k – $400k</option>
+      <option value="high">Above $400k</option>
+    </select>
+  </div>
+
+  <!-- PROPERTY GRID -->
+  <div class="property-grid" id="propertyGrid"></div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
